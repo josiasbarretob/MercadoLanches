@@ -8,12 +8,18 @@ public class Menu {
 
         Scanner leia = new Scanner(System.in);
         int opcao = 0;
-
-        System.out.println(Cores.TEXT_YELLOW + "*****************************************************" + Cores.TEXT_RESET);
+        System.out.println(Cores.TEXT_YELLOW + "*******************************************************************************************" + Cores.TEXT_RESET);
         System.out.println("                                                     ");
-        System.out.println(Cores.ANSI_BLACK_BACKGROUND + "                   MERCADO LANCHES                   " + Cores.TEXT_RESET);
+        System.out.println(Cores.ANSI_BLACK_BACKGROUND + " __  __  ______  _       _____   _                 _   _   _____  _    _  ______   _____\n" +
+                "|  \\/  ||  ____|| |     |_   _| | |         /\\    | \\ | | / ____|| |  | ||  ____| / ____|\n" +
+                "| \\  / || |__   | |       | |   | |        /  \\   |  \\| || |     | |__| || |__   | (___\n" +
+                "| |\\/| ||  __|  | |       | |   | |       / /\\ \\  | . ` || |     |  __  ||  __|   \\___ \\\n" +
+                "| |  | || |____ | |____  _| |_  | |____  / ____ \\ | |\\  || |____ | |  | || |____  ____) |\n" +
+                "|_|  |_||______||______||_____| |______|/_/    \\_\\|_| \\_| \\_____||_|  |_||______||_____/\n" +
+                "\n" +
+                "\n"+Cores.TEXT_RESET);
         System.out.println("                                                     ");
-        System.out.println(Cores.TEXT_YELLOW + "*****************************************************" + Cores.TEXT_RESET);
+        System.out.println(Cores.TEXT_YELLOW + "*******************************************************************************************" + Cores.TEXT_RESET);
         System.out.println("                                                     ");
         System.out.println("               1 - Criar Pedido                      ");//Gabriel Galvão (criar pedido e listar no final o pedido)
         System.out.println("               2 - Catálogo de Produtos              ");

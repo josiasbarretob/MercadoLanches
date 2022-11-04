@@ -15,7 +15,7 @@ public class Pedido extends Produto {
         super.VisualizarPedido();
     }
     public Produto produto(Produto produto) {
-       produto.setPreco();
+      // produto.setPreco();
         return produto;
     }
 }
