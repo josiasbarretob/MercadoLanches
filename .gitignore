@@ -8,4 +8,9 @@
 /httpRequests/
 out
 MercadoLanches.iml
-.idea
+.idea/jpa-buddy.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/uiDesigner.xml
+.idea/vcs.xml
+.DS_Store
