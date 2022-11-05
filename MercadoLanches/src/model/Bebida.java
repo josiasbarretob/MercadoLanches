@@ -1,4 +1,4 @@
-package parteUm.models;
+package src.model;
 
 public class Bebida extends Produto {
 

@@ -1,4 +1,4 @@
-package parteUm.models;
+package src.model;
 
 public class Produto {
     private String nome;

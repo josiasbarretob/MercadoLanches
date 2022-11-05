@@ -1,4 +1,4 @@
-package parteUm.models;
+package src.model;
 
 import java.util.Arrays;
 import java.util.Scanner;

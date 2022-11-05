@@ -1,18 +1,17 @@
-package model;
+package src.model;
 
-import java.io.StringReader;
 import java.util.Scanner;
 
 public class Pedido extends Produto {
     Scanner leia = new Scanner(System.in);
 
-    public Pedido(String nome, double preco, double quantidade) {
-        super(nome, preco, quantidade);
-
+    public Pedido(String nome, double preco, Scanner leia) {
+        super(nome, preco);
+        this.leia = leia;
     }
 
     public void VisualizarPedido() {
-        super.VisualizarPedido();
+        super.visualizar();
     }
     public Produto produto(Produto produto) {
       // produto.setPreco();

@@ -1,4 +1,4 @@
-package parteUm.models;
+package src.model;
 //classe interface?
 public class Combo {
 
