@@ -3,18 +3,17 @@ package src.model;
 import java.util.Scanner;
 
 public class Pedido extends Produto {
-    Scanner leia = new Scanner(System.in);
 
-    public Pedido(String nome, double preco, Scanner leia) {
-        super(nome, preco);
-        this.leia = leia;
+    public Pedido(String nome, int id, float preco, int tipo) {
+        super(nome, id, preco, tipo);
     }
 
     public void VisualizarPedido() {
         super.visualizar();
     }
+
     public Produto produto(Produto produto) {
-      // produto.setPreco();
+        // produto.setPreco();
         return produto;
     }
 }

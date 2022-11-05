@@ -23,12 +23,8 @@ public class Menu {
         System.out.println("                                                     ");
         System.out.println(Cores.TEXT_YELLOW + "*******************************************************************************************" + Cores.TEXT_RESET);
         System.out.println("                                                     ");
-        System.out.println("               1 - Criar Pedido                      ");//Gabriel Galvão (criar pedido e listar no final o pedido)
-        System.out.println("               2 - Catálogo de Produtos              ");
-        System.out.println("               3 - Aterar Produtos                   ");//Possivelmente com outro menu para o CRUD
-        System.out.println("               4 - Adicionar Cliente                 ");
-        System.out.println("               5 - Valor do Pedido                   ");
-        System.out.println("               6 - Status do Pedido                  ");
+        System.out.println("               1 - Produto                           ");//Gabriel Galvão (criar pedido e listar no final o pedido)
+        System.out.println("               2 - Pedido                            ");
         System.out.println("               7 - SAIR                              ");
         System.out.println("                                                     ");
         System.out.println("*****************************************************");
